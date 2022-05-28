@@ -26,7 +26,7 @@ instagram_username: justsomepin
 github_username:  somepin
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: solarized
@@ -34,6 +34,7 @@ minima:
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
