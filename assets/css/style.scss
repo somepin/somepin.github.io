@@ -1,0 +1,14 @@
+---
+---
+
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/initialize";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body {
+  font-family: "Inconsolata", monospace;
+}
+
+.post-content h1, .post-content h2, .post-content h3 {
+  margin-top: 30px;
+}
